@@ -1,29 +1,110 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- Stylesheet -->
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="hello">HELLO!</h1>
+                <p class="intro">Moi c'est Clara,<br>étudiante en Design</p>
+                <div class="decouvrir">Découvrir plus !</div>
+            </div>
+        </header>
 
-    <h1 id="demo">Demo</h1>
+        <div class="separator"></div>
 
-    <!-- JavaScript and GSAP-->
-    <!-- GSAP -->
-    <script src="js/gsap.min.js"></script>
-    <!-- GSAP Modules -->
-    <script src="js/ScrollToPlugin.min.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <script src="js/MotionPathPlugin.min.js"></script>
-    <script src="js/Draggable.min.js"></script>
+        <!-- Formations Section -->
+        <section class="formations">
+            <h2>Formations</h2>
+            <div class="formation-card">
+                <h3>Baccalauréat | Lycée Claude Nicolas Ledoux</h3>
+                <p>NSI (Numérique et Sciences Informatiques)<br>Art Plastique</p>
+            </div>
+            <div class="formation-card">
+                <h3>Bachelor Chef de Projet Digital | École Supérieure du Digital</h3>
+                <p>Développement Web<br>Web Design<br>Marketing Digital</p>
+            </div>
+        </section>
 
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
-    
+        <!-- Compétences Section -->
+        <section class="competences">
+            <h2>Compétences</h2>
+            <div class="skills-container">
+                <span class="skill-tag">SEO</span>
+                <span class="skill-tag">Retouche photo</span>
+                <span class="skill-tag">Gestion de projet</span>
+                <span class="skill-tag">Marketing digital</span>
+                <span class="skill-tag">Design UI</span>
+                <span class="skill-tag">Design UX</span>
+                <span class="skill-tag">Ibis Paint X</span>
+                <span class="skill-tag">After Effect</span>
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Photoshop</span>
+                <span class="skill-tag">Illustrator</span>
+                <span class="skill-tag">Wordpress</span>
+            </div>
+        </section>
+
+        <!-- Expériences Section -->
+        <section class="experiences">
+            <h2>Expériences</h2>
+            <div class="experience-item">
+                <p>Adjoint Chef de</p>
+                <span class="experience-tag tag-project">Projet Digital</span>
+                <p>| Groupe ADP</p>
+                <span class="experience-date">(Avril - Juillet 2025)</span>
+            </div>
+            <div class="experience-item">
+                <span class="experience-tag tag-strategy">Stratégie</span>
+                <p>de communication | Lola's Café - ESD</p>
+                <span class="experience-date">(Novembre 2024)</span>
+            </div>
+            <div class="experience-item">
+                <p>Stage UX | Design comportemental &</p>
+                <span class="experience-tag tag-deceptive">Deceptive</span>
+                <span class="experience-tag tag-patterns">Patterns</span>
+                <span class="experience-date">(Juin - Juillet 2024)</span>
+            </div>
+            <div class="experience-item">
+                <p>Indépendante Contenu</p>
+                <span class="experience-tag tag-multimedia">Multimédia</span>
+                <span class="experience-date">(2018 - 2023)</span>
+            </div>
+        </section>
+
+        <!-- Projets Section -->
+        <section class="projets">
+            <h2>Projets</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="project-card"></div>
+                    <div class="project-card"></div>
+                    <div class="project-card"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // "Découvrir plus" boutton scroll
+        document.querySelector('.decouvrir').addEventListener('click', () => {
+            document.querySelector('.formations').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+    </script>
 </body>
 </html>
