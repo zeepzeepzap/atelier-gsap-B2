@@ -137,14 +137,33 @@ h2 {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.tag-project { background-color: #FFD700; color: #000; }
-.tag-strategy { background-color: #FF6B6B; color: #fff; }
-.tag-deceptive { background-color: #4ECDC4; color: #000; }
-.tag-patterns { background-color: #FF69B4; color: #fff; }
-.tag-multimedia { background-color: #98FB98; color: #000; }
+.tag-project {
+    background-color: #FFD700;
+    color: #000;
+}
+
+.tag-strategy {
+    background-color: #FF6B6B;
+    color: #fff;
+}
+
+.tag-deceptive {
+    background-color: #4ECDC4;
+    color: #000;
+}
+
+.tag-patterns {
+    background-color: #FF69B4;
+    color: #fff;
+}
+
+.tag-multimedia {
+    background-color: #98FB98;
+    color: #000;
+}
 
 .experience-date {
-    color:rgba(255, 255, 255, 0.454);
+    color: rgba(255, 255, 255, 0.454);
 }
 
 /* Projets Section */

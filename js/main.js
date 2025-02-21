@@ -19,3 +19,27 @@ gsap.to(".skills-container", {
     yoyo: true,
     repeat: -1
 });
+
+gsap.to(".experience-tag", {
+    rotation: 10,
+    duration: 2.5,
+    ease: "power1.inOut",
+    yoyo: true,
+    repeat: -1
+});
+
+gsap.to(".tag-strategy", {
+    rotation: -10,
+    duration: 2,
+    ease: "power1.inOut",
+    yoyo: true,
+    repeat: -1
+});
+
+gsap.to(".tag-deceptive", {
+    rotation: -10,
+    duration: 2,
+    ease: "power1.inOut",
+    yoyo: true,
+    repeat: -1
+});
