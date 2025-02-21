@@ -11,6 +11,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+    <!-- Scripts -->
+
+    <!-- GSAP de base -->
+    <script src="atelier-gsap-B2/js/gsap.min.js"></script>
+
+    <!-- GSAP modules -->
+    <script src="atelier-gsap-B2/js/Draggable.min.js"></script>
+    <script src="atelier-gsap-B2/js/MotionPathPlugin.min.js"></script>
+    <script src="atelier-gsap-B2/js/ScrollToPlugin.min.js"></script>
+    <script src="atelier-gsap-B2/js/ScrollTrigger.min.js"></script>
+
+    <!-- GSAP modules -->
+    <script src="atelier-gsap-B2/js/main.js"></script>
+
 </head>
 
 <body>
@@ -101,10 +116,11 @@
     <script>
         // "Découvrir plus" boutton scroll
         document.querySelector('.decouvrir').addEventListener('click', () => {
-            document.querySelector('.formations').scrollIntoView({ 
-                behavior: 'smooth' 
+            document.querySelector('.formations').scrollIntoView({
+                behavior: 'smooth'
             });
         });
     </script>
 </body>
+
 </html>
