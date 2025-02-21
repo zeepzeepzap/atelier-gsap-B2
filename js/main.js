@@ -1,5 +1,6 @@
 // GSAP Modules
 gsap.registerPlugin(ScrollTrigger,ScrollToPlugin,Draggable,MotionPathPlugin);
+
 console.log("Bienvenu sur mon site !")
 // Animation GSAP Section 1
 
@@ -12,6 +13,20 @@ gsap.to(".intro", {
     yoyo: true,
     repeat: -1
 });
+
+// Animation GSAP Section 2
+
+gsap.to(".formation-card", {
+    scrollTrigger: {
+        trigger: '#section2',
+        start: 'top 70%',
+        end: 'top 20%',
+        scrub: 1,
+        toggleActions: 'play none none none',
+    },
+    filter: "blur(0px)",
+});
+
 
 // Animation GSAP Section 3
 
