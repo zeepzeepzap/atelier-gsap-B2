@@ -66,4 +66,26 @@ gsap.to(".tag-deceptive", {
     repeat: -1
 });
 
-// Animation GSAP Section 5, draggable pour attraper les projets
+// Animation GSAP Section 5, draggable pour attraper les projets un par un
+
+Draggable.create(".project-card1",{
+    type: "x,y",
+
+    onDrag: function(){
+        document.querySelector('.project-card1').style.width = "250px";
+    },
+    onDragEnd: function(){
+        document.querySelector('.project-card1').style.width = "50%";
+    }
+})
+
+Draggable.create(".project-card2",{
+    type: "x,y",
+
+    onDrag: function(){
+        document.querySelector('.project-card2').style.width = "250px";
+    },
+    onDragEnd: function(){
+        document.querySelector('.project-card2').style.width = "50%";
+    }
+})
