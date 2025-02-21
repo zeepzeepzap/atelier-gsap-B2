@@ -72,10 +72,10 @@ Draggable.create(".project-card1",{
     type: "x,y",
 
     onDrag: function(){
-        document.querySelector('.project-card1').style.width = "250px";
+        document.querySelector('.project-card1');
     },
     onDragEnd: function(){
-        document.querySelector('.project-card1').style.width = "50%";
+        document.querySelector('.project-card1');
     }
 })
 
@@ -83,9 +83,9 @@ Draggable.create(".project-card2",{
     type: "x,y",
 
     onDrag: function(){
-        document.querySelector('.project-card2').style.width = "250px";
+        document.querySelector('.project-card2');
     },
     onDragEnd: function(){
-        document.querySelector('.project-card2').style.width = "50%";
+        document.querySelector('.project-card2');
     }
 })
