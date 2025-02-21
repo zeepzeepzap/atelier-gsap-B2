@@ -57,7 +57,7 @@ body {
     margin-top: 4rem;
     cursor: pointer;
     font-size: 1.1rem;
-    color: #fff;
+    color: #ffffff;
     border-bottom: 1px solid #ffffff23;
     display: block;
     text-align: center;
@@ -65,12 +65,15 @@ body {
     transition: all 0.3s ease;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
 }
 
 .decouvrir:hover {
     border-color: #FFD700;
     color: #FFD700;
     border-bottom: 1px solid #ffd9003a;
+    text-decoration-color: #FFD700;
 }
 
 /* Styles des Sections */
