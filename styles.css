@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat Alternates', sans-serif;
     background-color: #000814;
     color: #fff;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 .container {

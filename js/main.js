@@ -1,6 +1,6 @@
 // GSAP Modules
-gsap.registerPlugin(ScrollTrigger, Observer, ScrollToPlugin, Draggable, MotionPathPlugin);
-
+gsap.registerPlugin(ScrollTrigger,ScrollToPlugin,Draggable,MotionPathPlugin);
+console.log("Bienvenu sur mon site !")
 // Animation GSAP Section 1
 
 gsap.to(".intro", {
