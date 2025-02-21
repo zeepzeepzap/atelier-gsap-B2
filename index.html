@@ -24,7 +24,7 @@
     <script src="atelier-gsap-B2/js/ScrollTrigger.min.js"></script>
 
     <!-- Custom JS -->
-    <script src="atelier-gsap-B2/js/main.js"></script>
+    <script src="C:\Users\clara\Downloads\Ateliers\GSAP-Git\atelier-gsap-B2\js\main.js"></script>
 
     <!-- GSAP cloud -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -135,9 +135,19 @@
                 repeat: -1
             });
         });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            gsap.to(".skills-container", {
+                x: 150,
+                y: 0,
+                duration: 5,
+                ease: "power1.inOut",
+                yoyo: true,
+                repeat: -1
+            });
+        });
+        
     </script>
-
-
 </body>
 
 </html>

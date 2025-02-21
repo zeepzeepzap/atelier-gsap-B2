@@ -10,3 +10,12 @@ gsap.to(".intro", {
     yoyo: true,
     repeat: -1
 });
+
+gsap.to(".skills-container", {
+    x: 150,
+    y: 0,
+    duration: 5,
+    ease: "power1.inOut",
+    yoyo: true,
+    repeat: -1
+});

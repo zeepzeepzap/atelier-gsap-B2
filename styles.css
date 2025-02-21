@@ -53,15 +53,19 @@ body {
     cursor: pointer;
     font-size: 1.1rem;
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    display: inline-block;
+    border-bottom: 1px solid #ffffff23;
+    display: block;
+    text-align: center;
     padding-bottom: 0.5rem;
     transition: all 0.3s ease;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .decouvrir:hover {
     border-color: #FFD700;
     color: #FFD700;
+    border-bottom: 1px solid #ffd9003a;
 }
 
 /* Section Styles */
