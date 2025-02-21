@@ -23,8 +23,11 @@
     <script src="atelier-gsap-B2/js/ScrollToPlugin.min.js"></script>
     <script src="atelier-gsap-B2/js/ScrollTrigger.min.js"></script>
 
-    <!-- GSAP modules -->
+    <!-- Custom JS -->
     <script src="atelier-gsap-B2/js/main.js"></script>
+
+    <!-- GSAP cloud -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
 </head>
 
@@ -120,7 +123,21 @@
                 behavior: 'smooth'
             });
         });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            gsap.to(".intro", {
+                x: 80,
+                y: -10,
+                rotation: 2,
+                duration: 4,
+                ease: "power1.inOut",
+                yoyo: true,
+                repeat: -1
+            });
+        });
     </script>
+
+
 </body>
 
 </html>
