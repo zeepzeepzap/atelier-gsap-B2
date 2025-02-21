@@ -84,7 +84,7 @@ h2 {
 
 .formation-card {
     background-color: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffc8e42b;
     border-radius: 20px;
     padding: 2.5rem;
     margin-bottom: 2rem;
@@ -93,7 +93,7 @@ h2 {
 }
 
 .formation-card:hover {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #ffc8e42b;
     transform: translateY(-5px);
 }
 
@@ -170,5 +170,5 @@ h2 {
 
 .project-card:hover {
     transform: translateY(-10px);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #ffc8e42b;
 }
