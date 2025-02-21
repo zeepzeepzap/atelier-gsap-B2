@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 4rem;
+    padding: 32px 64px;
     position: relative;
 }
 
@@ -40,28 +40,28 @@ body {
 
 .hello {
     color: #fab5d7;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .intro {
     color: #FF69B4;
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     line-height: 1.2;
 }
 
 .decouvrir {
-    margin-top: 4rem;
+    margin-top: 64px;
     cursor: pointer;
-    font-size: 1.1rem;
+    font-size: 17.6px;
     color: #ffffff;
     border-bottom: 1px solid #ffffff23;
     display: block;
     text-align: center;
-    padding-bottom: 0.5rem;
+    padding-bottom: 8px;
     transition: all 0.3s ease;
     margin-left: auto;
     margin-right: auto;
@@ -78,13 +78,13 @@ body {
 
 /* Styles des Sections */
 section {
-    padding: 6rem 0;
+    padding: 96px 0;
     position: relative;
 }
 
 h2 {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
+    font-size: 40px;
+    margin-bottom: 48px;
     font-weight: 500;
 }
 
@@ -94,8 +94,8 @@ h2 {
     background-color: rgba(255, 255, 255, 0.03);
     border: 1px solid #ffc8e42b;
     border-radius: 20px;
-    padding: 2.5rem;
-    margin-bottom: 2rem;
+    padding: 40px;
+    margin-bottom: 32px;
     transition: all 0.3s ease;
     filter: blur(30px);
 }
@@ -109,14 +109,14 @@ h2 {
 .skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .skill-tag {
     border: 1px solid #ffff;
-    padding: 0.8rem 1.5rem;
+    padding: 12.8px 24px;
     border-radius: 50px;
-    font-size: 0.9rem;
+    font-size: 14.4px;
     color: #ffff;
     transition: all 0.3s ease;
 }
@@ -132,14 +132,14 @@ h2 {
     margin: 32px 0;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
     flex-wrap: wrap;
 }
 
 .experience-tag {
-    padding: 0.4rem 1rem;
+    padding: 6.4px 16px;
     border-radius: 8px;
-    font-size: 0.9rem;
+    font-size: 14.4px;
     font-weight: 500;
     transform: rotate(-2deg);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
@@ -177,12 +177,12 @@ h2 {
 /* Projets Section 5 */
 .carousel {
     overflow: hidden;
-    padding: 2rem 0;
+    padding: 32px 0;
 }
 
 .carousel-container {
     display: flex;
-    gap: 3rem;
+    gap: 48px;
     padding-left: 100px;
 }
 
