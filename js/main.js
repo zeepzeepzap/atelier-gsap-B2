@@ -1,6 +1,8 @@
 // GSAP Modules
 gsap.registerPlugin(ScrollTrigger, Observer, ScrollToPlugin, Draggable, MotionPathPlugin);
 
+// Animation GSAP Section 1
+
 gsap.to(".intro", {
     x: 80,
     y: -10,
@@ -11,6 +13,8 @@ gsap.to(".intro", {
     repeat: -1
 });
 
+// Animation GSAP Section 3
+
 gsap.to(".skills-container", {
     x: 150,
     y: 0,
@@ -19,6 +23,8 @@ gsap.to(".skills-container", {
     yoyo: true,
     repeat: -1
 });
+
+// Animation GSAP Section 4
 
 gsap.to(".experience-tag", {
     rotation: 10,

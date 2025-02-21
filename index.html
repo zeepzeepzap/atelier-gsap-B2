@@ -33,7 +33,7 @@
 
 <body>
     <div class="container">
-        <!-- Header Section -->
+        <!-- Header Section 1 -->
         <header class="header">
             <div class="header-content">
                 <h1 class="hello">HELLO!</h1>
@@ -44,7 +44,7 @@
 
         <div class="separator"></div>
 
-        <!-- Formations Section -->
+        <!-- Formations Section 2 -->
         <section class="formations">
             <h2>Formations</h2>
             <div class="formation-card">
@@ -57,7 +57,7 @@
             </div>
         </section>
 
-        <!-- Compétences Section -->
+        <!-- Compétences Section 3 -->
         <section class="competences">
             <h2>Compétences</h2>
             <div class="skills-container">
@@ -76,7 +76,7 @@
             </div>
         </section>
 
-        <!-- Expériences Section -->
+        <!-- Expériences Section 4 -->
         <section class="experiences">
             <h2>Expériences</h2>
             <div class="experience-item">
@@ -103,7 +103,7 @@
             </div>
         </section>
 
-        <!-- Projets Section -->
+        <!-- Projets Section 5 -->
         <section class="projets">
             <h2>Projets</h2>
             <div class="carousel">
@@ -117,12 +117,14 @@
     </div>
 
     <script>
-        // "Découvrir plus" boutton scroll
+        // "Découvrir plus" boutton scroll vers Formations
         document.querySelector('.decouvrir').addEventListener('click', () => {
             document.querySelector('.formations').scrollIntoView({
                 behavior: 'smooth'
             });
         });
+
+        // Animation GSAP Section 1
 
         document.addEventListener('DOMContentLoaded', function () {
             gsap.to(".intro", {
@@ -136,6 +138,8 @@
             });
         });
 
+        // Animation GSAP Section 3
+
         gsap.to(".skills-container", {
             x: 150,
             y: 0,
@@ -144,6 +148,8 @@
             yoyo: true,
             repeat: -1
         });
+
+        // Animation GSAP Section 4
 
         gsap.to(".experience-tag", {
             rotation: 10,
