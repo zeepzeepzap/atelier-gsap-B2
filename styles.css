@@ -73,7 +73,7 @@ body {
     border-bottom: 1px solid #ffd9003a;
 }
 
-/* Sections Styles */
+/* Styles des Sections */
 section {
     padding: 6rem 0;
     position: relative;
@@ -186,7 +186,6 @@ h2 {
 .project-card1 {
     min-width: 400px;
     height: 450px;
-    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     background-image: url(assets/runwaynordic.jpg);
     background-size: cover;
@@ -195,7 +194,6 @@ h2 {
 .project-card2 {
     min-width: 400px;
     height: 450px;
-    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
     background-image: url(assets/belleessence.jpg);
     background-size: cover;

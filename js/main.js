@@ -1,8 +1,9 @@
 // GSAP Modules
 gsap.registerPlugin(ScrollTrigger,ScrollToPlugin,Draggable,MotionPathPlugin);
 
-console.log("Bienvenu sur mon site !")
-// Animation GSAP Section 1
+console.log("Bienvenue sur mon site !")
+
+// Animation GSAP Section 1, mouvement pour le texte d'introduction
 
 gsap.to(".intro", {
     x: 80,
@@ -14,7 +15,7 @@ gsap.to(".intro", {
     repeat: -1
 });
 
-// Animation GSAP Section 2
+// Animation GSAP Section 2, scrolltrigger avec un effet de flou
 
 gsap.to(".formation-card", {
     scrollTrigger: {
@@ -28,7 +29,7 @@ gsap.to(".formation-card", {
 });
 
 
-// Animation GSAP Section 3
+// Animation GSAP Section 3, mouvement de défilement pour les compétences
 
 gsap.to(".skills-container", {
     x: 150,
@@ -39,7 +40,7 @@ gsap.to(".skills-container", {
     repeat: -1
 });
 
-// Animation GSAP Section 4
+// Animation GSAP Section 4, mouvement de rotation pour les tags
 
 gsap.to(".experience-tag", {
     rotation: 10,
@@ -64,3 +65,5 @@ gsap.to(".tag-deceptive", {
     yoyo: true,
     repeat: -1
 });
+
+// Animation GSAP Section 5, draggable pour attraper les projets
