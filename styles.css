@@ -121,7 +121,7 @@ h2 {
 
 /* Expériences Section 4 */
 .experience-item {
-    margin: 2rem 0;
+    margin: 32px 0;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -174,20 +174,24 @@ h2 {
 
 .carousel-container {
     display: flex;
-    gap: 2rem;
-    transition: transform 0.5s ease;
+    gap: 3rem;
+    padding-left: 100px;
 }
 
-.project-card {
-    min-width: 300px;
-    height: 400px;
+.project-card1 {
+    min-width: 400px;
+    height: 450px;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
-    overflow: hidden;
-    transition: all 0.3s ease;
+    background-image: url(assets/runwaynordic.jpg);
+    background-size: cover;
 }
 
-.project-card:hover {
-    transform: translateY(-10px);
-    background-color: #ffc8e42b;
+.project-card2 {
+    min-width: 400px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    background-image: url(assets/belleessence.jpg);
+    background-size: cover;
 }
